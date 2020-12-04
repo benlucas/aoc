@@ -7,8 +7,8 @@ fn main() -> io::Result<()> {
         .map(|x| x.parse().expect("not a number"))
         .collect::<Vec<isize>>();
 
-    println!("solution 1 = {:?}", solve1(&input).unwrap());
-    println!("solution 2 = {:?}", solve2(&input).unwrap());
+    println!("solution 1 = {}", solve1(&input).unwrap());
+    println!("solution 2 = {}", solve2(&input).unwrap());
     Ok(())
 }
 
