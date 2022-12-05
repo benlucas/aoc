@@ -1,2 +1,4 @@
+node_modules/
+.fleet/
 /target
 .idea/
